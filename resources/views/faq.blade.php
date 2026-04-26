@@ -1,3 +1,3 @@
 <x-site-layout>
-    <h1>Contact</h1>
+    <p>faq</p>
 </x-site-layout>
