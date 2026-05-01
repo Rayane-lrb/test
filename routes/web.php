@@ -11,5 +11,5 @@ Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
 Route::get("/faq", [FaqController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
-Route::get('/tasks', [TaskController::class, 'index']);
-Route::get('/tasks/show/{task}', [TaskController::class, 'show']);
+Route::get('/tasks', [TaskController::class, 'index'])->name('tasks.index');
+Route::get('/tasks/{id}', [TaskController::class, 'show'])->name('tasks.show');
