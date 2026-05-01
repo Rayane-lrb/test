@@ -10,3 +10,4 @@ Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
 Route::get("/faq", [FaqController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
+Route::get('/tasks', [TaskController::class, 'index']);
