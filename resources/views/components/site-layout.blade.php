@@ -17,6 +17,7 @@
             <a href="/about" class="text-green-200 hover:text-white underline-offset-4 hover:underline transition font-bold">About</a>
             <a href="/contact" class="text-green-200 hover:text-white underline-offset-4 hover:underline transition font-bold">Contact</a>
             <a href="/faq" class="text-green-200 hover:text-white underline-offset-4 hover:underline transition font-bold">Faq</a>
+            <a href="/tasks" class="text-green-200 hover:text-white underline-offset-4 hover:underline transition font-bold">Tasks</a>
             <div>
                 <a href="/login" class="bg-white text-green-400 px-4 py-2 font-semibold rounded hover:bg-green-100 transition">Login</a>
             </div>

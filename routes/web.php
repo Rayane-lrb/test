@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\TaskController;
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -11,3 +12,4 @@ Route::get('/contact', [ContactController::class, 'index']);
 Route::get("/faq", [FaqController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/tasks', [TaskController::class, 'index']);
+Route::get('/tasks/show/{task}', [TaskController::class, 'show']);
